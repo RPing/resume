@@ -2,8 +2,13 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "Markdown based resume",
-
+  "scripts": {
+    "postinstall": "gulp copy"
+  },
   "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
     "markdown-resume": "~0.1.0"
   }
 }
