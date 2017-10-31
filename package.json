@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Markdown based resume",
   "scripts": {
-    "postinstall": "gulp copy"
+    "postinstall": "gulp copy",
+    "pdf": "md2resume --pdf resume.md"
   },
   "dependencies": {
     "browser-sync": "^2.18.13",
